@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flames-container">
+            <p id="f">F</p>
+            <p id="l">L</p>
+            <p id="a">A</p>
+            <p id="m">M</p>
+            <p id="e">E</p>
+            <p id="s">S</p>
+        </div>
+        <div class="input-section">
+            <div class="name-input">
+                <label for="name1">Your Name</label>
+                <input type="text" id="name1">
+            </div>
+            <div class="name-input">
+                <label for="name2">Partner's Name</label>
+                <input type="text" id="name2">
+            </div>
+        </div>
+        <button onclick="calculateFLAMES()">Calculate</button>
+    </div>
+    <div id="overlay">
+        <div id="finalResult"></div>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
